@@ -1,4 +1,4 @@
-# Feature Importance and Missing Data: An Empirical Comparison of Imputation Methods for Tabular Classification
+# Missing-Data Strategies under Varying Feature Importance and Missingness Mechanisms in Tabular Classification
 
 Does the best imputation method depend on **how important the missing feature is**, and on **why it is missing**? This repository contains the full experimental code and the exported results for a controlled study of 8 imputation strategies, 8 missingness mechanisms, 3 feature-importance tiers and 10 tabular datasets.
 
