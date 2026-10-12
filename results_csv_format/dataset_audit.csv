@@ -1,0 +1,13 @@
+dataset,group,original_rows,duplicates_removed,status,reason,source
+breast_cancer,A,569,0,included,,sklearn.load_breast_cancer
+wine,A,178,0,excluded,fewer than 300 rows for Group A,sklearn.load_wine
+digits,A,1797,0,included,,sklearn.load_digits
+banknote,A,1348,24,included,,/kaggle/input/datasets/ritesaluja/bank-note-authentication-uci-data/BankNote_Authentication.csv
+spambase,A,4210,391,included,,/kaggle/input/datasets/colormap/spambase/spambase.csv
+magic,A,18905,115,included,,/kaggle/input/datasets/abhinavmangalore/magic-gamma-cherenkov-telescope-dataset/magic04_gamma.csv
+adult,B,32537,24,included,,/kaggle/input/datasets/uciml/adult-census-income/adult.csv
+pima,B,768,0,excluded,no natural missingness,/kaggle/input/datasets/jamaltariqcheema/pima-indians-diabetes-dataset/diabetes.csv
+horse,B,291,8,included,,/kaggle/input/datasets/uciml/horse-colic/horse.csv
+ionosphere,A,350,1,included,,https://www.openml.org/d/59
+phoneme,A,5395,9,included,,https://www.openml.org/d/1489
+credit_approval,B,690,0,included,,https://www.openml.org/d/29

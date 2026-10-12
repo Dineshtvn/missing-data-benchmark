@@ -1,0 +1,58 @@
+{
+  "code_version": "1.0.0",
+  "fast": false,
+  "folds": 3,
+  "repeats": 2,
+  "mask_seeds": [
+    17,
+    47
+  ],
+  "seed": 2026,
+  "max_rows": 1500,
+  "main_model": "xgb",
+  "models": [
+    "lr",
+    "rf",
+    "hgb",
+    "xgb",
+    "mlp"
+  ],
+  "gpu_requested": true,
+  "catboost": false,
+  "imputers": [
+    "mean",
+    "median",
+    "mode",
+    "median_indicator",
+    "knn",
+    "iterative",
+    "rf_iterative",
+    "native"
+  ],
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "sklearn": "1.6.1",
+    "xgboost": "3.4.1",
+    "torch": "2.11.0+cu128",
+    "statsmodels": "0.15.0"
+  },
+  "datasets": {
+    "breast_cancer": "4865f8b0c2cb73ba79f9309248402c6be8c450c78446061c6bf77e5d5d7ee32e",
+    "digits": "56385459eb4e4131b8df0e677eecb5ca52deec0971ac6f7801c3d021f74565e3",
+    "banknote": "806dab2653d5a5ebd0cc8428ed2fc146b641d9ac904eb5eeaceb63ceee8dbb12",
+    "spambase": "068911ee552e466016332a04433b77f9309a9844cefcbd17b5b4cdfd977d33dd",
+    "magic": "4d37a5372d7225bb8ea1fc331c1d64ee02296e453a1c0d3a1ab47b47d2080968",
+    "adult": "9048dbb9517affcf5b3bf5a654701574ca54fdbb27e7852526d93200a6a11e4a",
+    "horse": "1d2c21452b19dc5ee8b7bfb6dff14d1afae8a60242e42d4551b14e8db92409d9",
+    "ionosphere": "2b5f58dd91622179a450961b3119398b26afc20f3b410fc702c4216314270206",
+    "phoneme": "668c2159814f3e3e274b12ebf99e37eb73dccd50017ec480fc76e79c5bc3e3d6",
+    "credit_approval": "1ec19dc79bab3c8cfbdf717cdde4136dd01922046552b612f8891c4ca241e1db"
+  },
+  "core": true,
+  "multimodel": true,
+  "mismatch": true,
+  "natural": true
+}

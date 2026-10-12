@@ -1,0 +1,11 @@
+dataset,group,rows,original_rows,features,classes,class_balance,numeric,categorical,mean_abs_correlation,missing_fraction,source
+breast_cancer,A,569,569,30,2,"{""0"": 0.3726, ""1"": 0.6274}",30,0,0.39489662556591243,0.0,sklearn.load_breast_cancer
+digits,A,1500,1797,64,10,"{""0"": 0.0993, ""1"": 0.1013, ""2"": 0.0987, ""3"": 0.102, ""4"": 0.1007, ""5"": 0.1013, ""6"": 0.1007, ""7"": 0.0993, ""8"": 0.0967, ""9"": 0.1}",64,0,0.12394055884625291,0.0,sklearn.load_digits
+banknote,A,1348,1348,4,2,"{""0"": 0.5475, ""1"": 0.4525}",4,0,0.42517916359031904,0.0,/kaggle/input/datasets/ritesaluja/bank-note-authentication-uci-data/BankNote_Authentication.csv
+spambase,A,1500,4210,57,2,"{""0"": 0.6013, ""1"": 0.3987}",57,0,0.060427608267021905,0.0,/kaggle/input/datasets/colormap/spambase/spambase.csv
+magic,A,1500,18905,10,2,"{""g"": 0.652, ""h"": 0.348}",10,0,0.2661170029854234,0.0,/kaggle/input/datasets/abhinavmangalore/magic-gamma-cherenkov-telescope-dataset/magic04_gamma.csv
+adult,B,1500,32537,14,2,"{""<=50K"": 0.7593, "">50K"": 0.2407}",6,8,0.05882688565428317,0.008047619047619048,/kaggle/input/datasets/uciml/adult-census-income/adult.csv
+horse,B,291,291,21,3,"{""died"": 0.2543, ""euthanized"": 0.1478, ""lived"": 0.5979}",7,14,0.21250084777962577,0.25462281132384224,/kaggle/input/datasets/uciml/horse-colic/horse.csv
+ionosphere,A,350,350,34,2,"{""b"": 0.3571, ""g"": 0.6429}",34,0,0.2304521429483797,0.0,https://www.openml.org/d/59
+phoneme,A,1500,5395,5,2,"{""1"": 0.708, ""2"": 0.292}",5,0,0.1293030265574364,0.0,https://www.openml.org/d/1489
+credit_approval,B,690,690,15,2,"{""+"": 0.4449, ""-"": 0.5551}",6,9,0.16675303531461136,0.006473429951690821,https://www.openml.org/d/29
