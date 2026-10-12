@@ -73,13 +73,14 @@ At 20% target-feature missingness, averaged equally over the 7 controlled datase
 .
 ├── implementation.ipynb          # Full experiment (Kaggle notebook)
 ├── results/
+    |__ figures
 │   ├── key_findings.md
 │   ├── config.json               # Exact run settings
 │   ├── metadata.json             # Versions, GPU, runtime
 │   ├── results.csv               # Full-precision per-evaluation results
 │   ├── *.csv                     # Statistical and summary tables
 │   ├── figures/                  # PNG + PDF figures
-│   └── importance/               # Per-dataset, per-fold feature importance
+│   └── importance/           # Per-dataset, per-fold feature importance
 └── README.md
 ```
 
