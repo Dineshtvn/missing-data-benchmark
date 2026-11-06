@@ -84,8 +84,6 @@ At 20% target-feature missingness, averaged equally over the 7 controlled datase
 └── README.md
 ```
 
-The 30,900+ per-evaluation checkpoint files are not stored in the repository. They are available in the release archive: `<link to GitHub Release / Zenodo>`.
-
 ## Reproducing the experiments
 
 **Environment used for the reported run**
