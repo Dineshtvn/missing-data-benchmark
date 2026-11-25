@@ -1,11 +1,7 @@
 # Importance-Tiered Feature Masking and Train/Test Missingness Mismatch
 
-Code and results for the manuscript:
 
 > **Importance-Tiered Feature Masking and Train/Test Missingness Mismatch: A Controlled Evaluation of Imputation and Native Missing-Value Handling for XGBoost Tabular Classification**
-> Tallam Venkata Naga Dinesh and Anne Venkata Praveen Krishna
-> Department of Computer Science and Engineering, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Andhra Pradesh, India
-> *Manuscript under review (submission TCSST-26-766).*
 
 The study compares eight missing-data strategies with an XGBoost classifier. Missingness is placed in features chosen by importance rank and simulated under several mechanisms, including cases where training and test data have different missingness. A second run tests whether the conclusions depend on the main design choices.
 
